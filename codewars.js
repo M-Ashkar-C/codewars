@@ -28,13 +28,37 @@
 //   Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
 //   * 'abc' =>  ['ab', 'c_']
 // * 'abcdef' => ['ab', 'cd', 'ef']
-str='abcde'
-result=[]
-function solution(str){
-for(i=0;i<str.length;i+=2){
-    pair=str[i]+(str[i+1]||'_');
-    result.push(pair)
-}
-return result
-}
-document.write(solution(str))
+// str='abcde'
+// result=[]
+// function solution(str){
+// for(i=0;i<str.length;i+=2){
+//     pair=str[i]+(str[i+1]||'_');
+//     result.push(pair)
+// }
+// return result
+// }
+// document.write(solution(str))
+
+
+
+
+
+// In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+
+// Examples
+// makeNegative(1);    // return -1
+// makeNegative(-5);   // return -5
+// makeNegative(0);    // return 0
+// makeNegative(0.12); // return -0.12
+
+function makeNegative(num) {
+    // Code?
+    if(num>0){
+        let n=-num
+        return n
+    }else{
+        return num
+    }
+  }
+  console.log(makeNegative(-42));
+  
