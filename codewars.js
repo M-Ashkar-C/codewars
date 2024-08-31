@@ -1,16 +1,31 @@
+// Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+// Examples:
+// solution('abc', 'bc') // returns true
+// solution('abc', 'd') // returns false
+
+function solution(str,ending){
+    return str.endsWith(ending);
+}
+console.log(solution("abc","bc"));
+
+
+
+
+
+
 // You get an array of numbers, return the sum of all of the positives ones.
 // Example [1,-4,7,12] => 1 + 7 + 12 = 20
 // Note: if there is nothing to sum, the sum is default to 0.
-let arr=[];
-sum =0;
-function positiveSum(arr) {
-    a1=arr.filter(value=>{
-      return value>0
-    })
-     s=a1.reduce((sum,value)=> sum+value,0);
-     return console.log(s)
-  }
-  positiveSum(arr)
+// let arr=[];
+// sum =0;
+// function positiveSum(arr) {
+//     a1=arr.filter(value=>{
+//       return value>0
+//     })
+//      s=a1.reduce((sum,value)=> sum+value,0);
+//      return console.log(s)
+//   }
+//   positiveSum(arr)
  
  
 
