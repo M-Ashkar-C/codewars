@@ -1,13 +1,36 @@
+// We need a function that can transform a number (integer) into a string.
+// What ways of achieving this do you know?
+// Examples (input --> output):
+// 123  --> "123"
+// 999  --> "999"
+// -100 --> "-100"
+
+
+function numberToString(num) {
+  return num.toString();
+}
+console.log(numberToString(123));
+
+
+
+
+
+
+
+
+
+
+
 // Complete the solution so that it reverses the string passed into it.
 // 'world'  =>  'dlrow'
 // 'word'   =>  'drow'
 
-function solution(str){
-    strr=str.split("").reverse()
-    return strr.join('')
-  }
+// function solution(str){
+//     strr=str.split("").reverse()
+//     return strr.join('')
+//   }
 
-console.log(solution("world"))
+// console.log(solution("world"))
 
 
 
