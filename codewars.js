@@ -1,3 +1,19 @@
+// Complete the method that takes a boolean value and return 
+// a "Yes" string for true, or a "No" string for false.
+
+
+function boolToWord( bool ){
+ const ans = bool === true ? "Yes" : bool === false ? "No" : "invalid";
+ return ans;
+}
+console.log(boolToWord(true));
+
+
+
+
+
+
+
 // We need a function that can transform a number (integer) into a string.
 // What ways of achieving this do you know?
 // Examples (input --> output):
@@ -6,10 +22,10 @@
 // -100 --> "-100"
 
 
-function numberToString(num) {
-  return num.toString();
-}
-console.log(numberToString(123));
+// function numberToString(num) {
+//   return num.toString();
+// }
+// console.log(numberToString(123));
 
 
 
