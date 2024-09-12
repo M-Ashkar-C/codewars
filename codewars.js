@@ -1,12 +1,28 @@
+// Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
+
+// Examples:
+
+// 1: -1
+// 14: -14
+// -34: 34
+
+function opposite(number) {
+   return -number;
+}
+console.log(opposite(-4))
+
+
+
+
 // Complete the method that takes a boolean value and return 
 // a "Yes" string for true, or a "No" string for false.
 
 
-function boolToWord( bool ){
- const ans = bool === true ? "Yes" : bool === false ? "No" : "invalid";
- return ans;
-}
-console.log(boolToWord(true));
+// function boolToWord( bool ){
+//  const ans = bool === true ? "Yes" : bool === false ? "No" : "invalid";
+//  return ans;
+// }
+// console.log(boolToWord(true));
 
 
 
